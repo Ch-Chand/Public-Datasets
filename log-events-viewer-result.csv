@@ -1,0 +1,201 @@
+timestamp,message
+1650400281080,CmdExecution: Command execution was completed successfully
+1650400281080,CmdExecution: Stderr: 
+1650400281080,CmdExecution: ExitCode 0
+1650400281080,ExecuteBash: Removing temporary directory: /tmp/AWSTOE2557801126
+1650400281080,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE2557801126
+1650400281080,ExecuteBash: FINISHED EXECUTION
+1650400281084,Step FileExtension
+1650400281086,ExecuteBash: STARTED EXECUTION
+1650400281086,ExecuteBash: Created temporary directory: /tmp/AWSTOE762391719
+1650400281086,ExecuteBash: Created temporary script file at: /tmp/AWSTOE762391719/script-2024406199.sh
+1650400281086,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE762391719/script-2024406199.sh]
+1650400281086,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE762391719/script-2024406199.sh]
+1650400281090,Stdout: deb
+1650400281090,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400281090,CmdExecution: Command execution has been completed
+1650400281090,CmdExecution: Command execution was completed successfully
+1650400281090,CmdExecution: Stderr: 
+1650400281090,CmdExecution: ExitCode 0
+1650400281090,ExecuteBash: Removing temporary directory: /tmp/AWSTOE762391719
+1650400281090,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE762391719
+1650400281090,ExecuteBash: FINISHED EXECUTION
+1650400281093,Step Source
+1650400281095,ExecuteBash: STARTED EXECUTION
+1650400281095,ExecuteBash: Created temporary directory: /tmp/AWSTOE901047878
+1650400281095,ExecuteBash: Created temporary script file at: /tmp/AWSTOE901047878/script-3290073109.sh
+1650400281095,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE901047878/script-3290073109.sh]
+1650400281095,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE901047878/script-3290073109.sh]
+1650400281100,Stdout: https://s3.us-east-2.amazonaws.com/amazoncloudwatch-agent-us-east-2/debian/amd64/latest/amazon-cloudwatch-agent.deb
+1650400281100,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400281100,CmdExecution: Command execution has been completed
+1650400281100,CmdExecution: Command execution was completed successfully
+1650400281100,CmdExecution: Stderr: 
+1650400281100,CmdExecution: ExitCode 0
+1650400281100,ExecuteBash: Removing temporary directory: /tmp/AWSTOE901047878
+1650400281100,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE901047878
+1650400281100,ExecuteBash: FINISHED EXECUTION
+1650400281105,Step Installer
+1650400281106,ExecuteBash: STARTED EXECUTION
+1650400281106,ExecuteBash: Created temporary directory: /tmp/AWSTOE3653803052
+1650400281106,ExecuteBash: Created temporary script file at: /tmp/AWSTOE3653803052/script-2222918787.sh
+1650400281106,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE3653803052/script-2222918787.sh]
+1650400281106,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE3653803052/script-2222918787.sh]
+1650400281107,Stdout: /tmp/amazon-cloudwatch-agent.deb
+1650400281107,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400281107,CmdExecution: Command execution has been completed
+1650400281107,CmdExecution: Command execution was completed successfully
+1650400281107,CmdExecution: Stderr: 
+1650400281107,CmdExecution: ExitCode 0
+1650400281107,ExecuteBash: Removing temporary directory: /tmp/AWSTOE3653803052
+1650400281107,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE3653803052
+1650400281107,ExecuteBash: FINISHED EXECUTION
+1650400281111,Step InstallationRequirements
+1650400281112,ExecuteBash: STARTED EXECUTION
+1650400281113,ExecuteBash: Created temporary directory: /tmp/AWSTOE1528712969
+1650400281113,ExecuteBash: Created temporary script file at: /tmp/AWSTOE1528712969/script-1292511967.sh
+1650400281113,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE1528712969/script-1292511967.sh]
+1650400281113,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE1528712969/script-1292511967.sh]
+1650400281115,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400281115,CmdExecution: Command execution has been completed
+1650400281115,CmdExecution: Command execution was completed successfully
+1650400281115,CmdExecution: Stderr: 
+1650400281115,CmdExecution: ExitCode 0
+1650400281115,ExecuteBash: Removing temporary directory: /tmp/AWSTOE1528712969
+1650400281115,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE1528712969
+1650400281115,ExecuteBash: FINISHED EXECUTION
+1650400281119,Step Download
+1650400281120,ExecuteBash: STARTED EXECUTION
+1650400281120,ExecuteBash: Created temporary directory: /tmp/AWSTOE774682327
+1650400281120,ExecuteBash: Created temporary script file at: /tmp/AWSTOE774682327/script-2272867899.sh
+1650400281120,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE774682327/script-2272867899.sh]
+1650400281121,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE774682327/script-2272867899.sh]
+1650400281121,Stdout: Downloading 'https://s3.us-east-2.amazonaws.com/amazoncloudwatch-agent-us-east-2/debian/amd64/latest/amazon-cloudwatch-agent.deb' to '/tmp/amazon-cloudwatch-agent.deb'
+1650400281990,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400281990,CmdExecution: Command execution has been completed
+1650400281990,CmdExecution: Command execution was completed successfully
+1650400281990,CmdExecution: Stderr: 
+1650400281991,CmdExecution: ExitCode 0
+1650400281991,ExecuteBash: Removing temporary directory: /tmp/AWSTOE774682327
+1650400281991,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE774682327
+1650400281991,ExecuteBash: FINISHED EXECUTION
+1650400281997,Step Install
+1650400281999,ExecuteBash: STARTED EXECUTION
+1650400281999,ExecuteBash: Created temporary directory: /tmp/AWSTOE2074370614
+1650400281999,ExecuteBash: Created temporary script file at: /tmp/AWSTOE2074370614/script-2097901485.sh
+1650400281999,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE2074370614/script-2097901485.sh]
+1650400281999,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE2074370614/script-2097901485.sh]
+1650400282015,Stdout: Selecting previously unselected package amazon-cloudwatch-agent.
+1650400282020,Stdout: (Reading database ... 7590 files and directories currently installed.)
+1650400282020,Stdout: Preparing to unpack .../amazon-cloudwatch-agent.deb ...
+1650400282033,"Stdout: create group cwagent, result: 0"
+1650400282053,"Stdout: create user cwagent, result: 0"
+1650400282053,Stdout: Unpacking amazon-cloudwatch-agent (1.247350.0b251780-1) ...
+1650400283787,Stdout: Setting up amazon-cloudwatch-agent (1.247350.0b251780-1) ...
+1650400283803,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400283803,CmdExecution: Command execution has been completed
+1650400283803,CmdExecution: Command execution was completed successfully
+1650400283803,CmdExecution: Stderr: 
+1650400283803,CmdExecution: ExitCode 0
+1650400283803,ExecuteBash: Removing temporary directory: /tmp/AWSTOE2074370614
+1650400283803,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE2074370614
+1650400283803,ExecuteBash: FINISHED EXECUTION
+1650400283807,Step Cleanup
+1650400283809,ExecuteBash: STARTED EXECUTION
+1650400283809,ExecuteBash: Created temporary directory: /tmp/AWSTOE2379810612
+1650400283809,ExecuteBash: Created temporary script file at: /tmp/AWSTOE2379810612/script-1088665846.sh
+1650400283809,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE2379810612/script-1088665846.sh]
+1650400283809,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE2379810612/script-1088665846.sh]
+1650400283810,Stdout: Deleting '/tmp/amazon-cloudwatch-agent.deb'
+1650400283818,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400283818,CmdExecution: Command execution has been completed
+1650400283818,CmdExecution: Command execution was completed successfully
+1650400283818,CmdExecution: Stderr: 
+1650400283818,CmdExecution: ExitCode 0
+1650400283818,ExecuteBash: Removing temporary directory: /tmp/AWSTOE2379810612
+1650400283818,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE2379810612
+1650400283818,ExecuteBash: FINISHED EXECUTION
+1650400283824,Phase validate
+1650400283825,Step Fail
+1650400283826,ExecuteBash: STARTED EXECUTION
+1650400283826,ExecuteBash: Created temporary directory: /tmp/AWSTOE831462336
+1650400283826,ExecuteBash: Created temporary script file at: /tmp/AWSTOE831462336/script-3482292925.sh
+1650400283826,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE831462336/script-3482292925.sh]
+1650400283826,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE831462336/script-3482292925.sh]
+1650400283827,Stdout: 1
+1650400283827,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400283827,CmdExecution: Command execution has been completed
+1650400283827,CmdExecution: Command execution was completed successfully
+1650400283827,CmdExecution: Stderr: 
+1650400283827,CmdExecution: ExitCode 0
+1650400283827,ExecuteBash: Removing temporary directory: /tmp/AWSTOE831462336
+1650400283827,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE831462336
+1650400283827,ExecuteBash: FINISHED EXECUTION
+1650400283832,Step OperatingSystemRelease
+1650400283833,ExecuteBash: STARTED EXECUTION
+1650400283834,ExecuteBash: Created temporary directory: /tmp/AWSTOE1455055295
+1650400283834,ExecuteBash: Created temporary script file at: /tmp/AWSTOE1455055295/script-3500512133.sh
+1650400283834,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE1455055295/script-3500512133.sh]
+1650400283834,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE1455055295/script-3500512133.sh]
+1650400283835,Stdout: debian.10
+1650400283835,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400283835,CmdExecution: Command execution has been completed
+1650400283835,CmdExecution: Command execution was completed successfully
+1650400283835,CmdExecution: Stderr: 
+1650400283835,CmdExecution: ExitCode 0
+1650400283835,ExecuteBash: Removing temporary directory: /tmp/AWSTOE1455055295
+1650400283835,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE1455055295
+1650400283835,ExecuteBash: FINISHED EXECUTION
+1650400283839,Step IsOperatingSystemSupported
+1650400283840,ExecuteBash: STARTED EXECUTION
+1650400283840,ExecuteBash: Created temporary directory: /tmp/AWSTOE2576467100
+1650400283840,ExecuteBash: Created temporary script file at: /tmp/AWSTOE2576467100/script-3155957863.sh
+1650400283840,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE2576467100/script-3155957863.sh]
+1650400283840,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE2576467100/script-3155957863.sh]
+1650400283844,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400283844,CmdExecution: Command execution has been completed
+1650400283844,CmdExecution: Command execution was completed successfully
+1650400283844,CmdExecution: Stderr: 
+1650400283844,CmdExecution: ExitCode 0
+1650400283844,ExecuteBash: Removing temporary directory: /tmp/AWSTOE2576467100
+1650400283844,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE2576467100
+1650400283844,ExecuteBash: FINISHED EXECUTION
+1650400283849,Step FindAmazonCloudWatchAgent
+1650400283850,ExecuteBash: STARTED EXECUTION
+1650400283850,ExecuteBash: Created temporary directory: /tmp/AWSTOE2079180218
+1650400283850,ExecuteBash: Created temporary script file at: /tmp/AWSTOE2079180218/script-1172249542.sh
+1650400283850,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE2079180218/script-1172249542.sh]
+1650400283850,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE2079180218/script-1172249542.sh]
+1650400284550,Stdout: 0
+1650400284551,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400284551,CmdExecution: Command execution has been completed
+1650400284551,CmdExecution: Command execution was completed successfully
+1650400284551,CmdExecution: Stderr: 
+1650400284551,CmdExecution: ExitCode 0
+1650400284551,ExecuteBash: Removing temporary directory: /tmp/AWSTOE2079180218
+1650400284551,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE2079180218
+1650400284551,ExecuteBash: FINISHED EXECUTION
+1650400284556,Step AssertInstallation
+1650400284558,ExecuteBash: STARTED EXECUTION
+1650400284558,ExecuteBash: Created temporary directory: /tmp/AWSTOE790265705
+1650400284558,ExecuteBash: Created temporary script file at: /tmp/AWSTOE790265705/script-3333044006.sh
+1650400284558,CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE790265705/script-3333044006.sh]
+1650400284558,CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE790265705/script-3333044006.sh]
+1650400284559,Stdout: The Amazon CloudWatch Agent is installed.
+1650400284559,CmdExecution: Terminating read operation on STDOUT pipe - EOF
+1650400284559,CmdExecution: Command execution has been completed
+1650400284559,CmdExecution: Command execution was completed successfully
+1650400284559,CmdExecution: Stderr: 
+1650400284559,CmdExecution: ExitCode 0
+1650400284559,ExecuteBash: Removing temporary directory: /tmp/AWSTOE790265705
+1650400284559,ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE790265705
+1650400284559,ExecuteBash: FINISHED EXECUTION
+1650400284569,TOE has completed execution successfully
+1650400331400,Setup: STARTED SETUP
+1650400331400,Setup: Document arn:aws:imagebuilder:us-east-2:813215560771:component/amazon-cloudwatch-agent-linux/1.0.1/1 is an EC2 Image Builder Component Version Arn
+1650400335284,Document arn:aws:imagebuilder:us-east-2:813215560771:component/amazon-cloudwatch-agent-linux/1.0.1/1
+1650400335290,TOE has completed execution successfully
+1650400336788,Setup: STARTED SETUP
+1650400336789,Setup: Document arn:aws:imagebuilder:us-east-2:813215560771:component/amazon-cloudwatch-agent-linux/1.0.1/1 is an EC2 Image Builder Component Version Arn
+1650400337155,Document arn:aws:imagebuilder:us-east-2:813215560771:component/amazon-cloudwatch-agent-linux/1.0.1/1
+1650400337160,TOE has completed execution successfully
